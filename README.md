@@ -44,10 +44,11 @@ void loop()
     digitalWrite(buzz,LOW);
     digitalWrite(ledr,LOW);
    lcd_1.print("Soil is wet");
-
-
-   Circuit diagram:<img width="1244" height="773" alt="image" src="https://github.com/user-attachments/assets/24601338-2553-4b10-8a29-90881be23a52" />
-
   }
      Serial.println(moisture);
 }
+
+
+
+
+   Circuit diagram:<img width="1244" height="773" alt="image" src="https://github.com/user-attachments/assets/24601338-2553-4b10-8a29-90881be23a52" />
